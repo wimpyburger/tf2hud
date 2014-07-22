@@ -2478,6 +2478,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		BikoBold60
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"60"
+				"antialias" "1"
+			}
+		}
 	}
 	
 	//

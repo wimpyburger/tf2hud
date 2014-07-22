@@ -17,9 +17,9 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"r280"
-		"ypos"	"r130"
+		"ypos"	"r165"
 		"wide"	"94"
-		"tall"	"45"
+		"tall"	"100"
 	}
 	
 	HudObjectiveStatus

@@ -78,7 +78,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"west"	
-		"font"			"BikoBlack60"
+		"font"			"BikoBold60"
 		"fgcolor"		"TanLight"
 	}
 	"PlayerStatusHealthValueShadow"
@@ -94,7 +94,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"west"	
-		"font"			"BikoBlack60"
+		"font"			"BikoBold60"
 		"fgcolor"		"Black"
 	}	
 	"PlayerStatusBleedImage"
