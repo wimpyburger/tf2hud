@@ -16,7 +16,7 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r280"
+		"xpos"	"r250"
 		"ypos"	"r165"
 		"wide"	"94"
 		"tall"	"100"
@@ -73,9 +73,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-180"
-		"ypos"			"r95"
-		"wide"			"200"
-		"tall"			"100"
+		"ypos"			"r150"
+		"wide"			"600"
+		"tall"			"600"
 	}
 	
 	HudDemomanCharge
