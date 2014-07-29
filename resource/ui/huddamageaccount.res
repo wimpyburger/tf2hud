@@ -10,8 +10,8 @@
 		"delta_item_x"			"0"
 		"delta_item_end_y"		"0"
 		"delta_lifetime"		"2"
-		"delta_item_font"		"HudFontMediumSmallBold" 
-		"delta_item_font_big"	"HudFontMediumSmallBold"
+		"delta_item_font"		"BikoBold24" 
+		"delta_item_font_big"	"BikoBold24"
 		"outline"				"1"
 
 	}
@@ -30,7 +30,7 @@
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
 		"fgcolor"		"Last DamageHeal Info"
-		"font"			"HudFontMediumBold"
+		"font"			"BikoBold24"
 	}
 	
 	"DamageAccountValueBG"
