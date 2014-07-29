@@ -36,7 +36,7 @@
 		"fieldName"		"BottomBar"
 		"xpos"			"0"
 		"ypos"			"r70"
-		"tall"			"70"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -48,12 +48,8 @@
 		"ControlName"		"Panel"
 		"fieldName"		"bottombarblank"
 		"xpos"			"0"
-		"ypos"			"r70"	[$WIN32]
-		"ypos"			"r90"	[$X360]		
-		"ypos_minmode"	"r0"
-		"tall"			"70"	[$WIN32]		// this needs to match the size of BottomBar
-		"tall_minmode"	"0"		
-		"tall"			"90"	[$X360]		
+		"ypos"	"r0"
+		"tall"	"0"
 		"wide"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
