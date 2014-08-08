@@ -54,69 +54,6 @@
 			"visible"		"0"
 		}
 	}
-	
-	"random"
-	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"random"
-		"xpos"				"c250"
-		"xpos_lodef"				"c217"
-		"xpos_hidef"				"c238"
-		"ypos"				"-5"
-		"ypos_lodef"				"9"
-		"ypos_hidef"				"0"
-		"zpos"				"6"
-		"wide"				"50"
-		"tall"				"100"
-		"autoResize"		"0"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			""
-		"textAlignment"		"south-west"
-		"Command"			"select 12"
-		"Default"			"1"
-		"font"				"MenuKeys"
-		"scaleImage"		"1"
-		
-		"image_default"		"class_sel_sm_random_inactive"
-		"image_armed"		"class_sel_sm_random_inactive"
-		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
-		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"paintbackground"	"0"
-		
-		"image_drawcolor"		"255 255 255 180"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
-		
-		"stayselectedonclick"	"1"
-		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"7"
-			"wide"			"50"
-			"tall"			"100"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"class_sel_sm_random_inactive"
-			"scaleImage"	"1"
-		}				
-	}
 		
 	"Offense"
 	{
@@ -511,6 +448,43 @@
 		"labelText"			"Spy"
 		"textAlignment"		"west"
 		"Command"			"joinclass spy"
+		"font"				"BikoBold24"
+		"scaleImage"		"1"
+		"paintbackground"	"0"
+		
+		"fgcolor"					"TanDark"
+		"defaultFgColor_override" 	"TanDark"
+		"armedFgColor_override"		"TanDark"
+		"depressedFgColor_override" "TanDark"
+		"selectedFgColor_override" 	"TanLight"
+			
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"UI/buttonrollover.wav"
+		
+		
+		"stayselectedonclick"	"1"
+		"Default"				"0"
+		"selectonhover"			"1"
+		"keyboardinputenabled"	"0"		
+	}	
+	"random"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"random"
+		"xpos"				"180"
+		"ypos"				"255"
+		"zpos"				"6"
+		"wide"				"200"
+		"tall"				"24"
+		"autoResize"		"0"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"Random"
+		"textAlignment"		"west"
+		"Command"			"joinclass random"
 		"font"				"BikoBold24"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
@@ -1392,7 +1366,7 @@
 		"fieldName"		"TFPlayerModel"
 		
 		"xpos"			"0"
-		"ypos"			"35"
+		"ypos"			"58"
 		"zpos"			"6"		
 		"wide"			"250"
 		"tall"			"250"

@@ -47,6 +47,6 @@
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
 		"fgcolor"		"TransparentBlack"
-		"font"			"HudFontMediumBold"
+		"font"			"BikoBold24"
 	}
 }

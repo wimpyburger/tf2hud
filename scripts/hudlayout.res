@@ -72,9 +72,9 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-180"
-		"ypos"			"r150"
-		"wide"			"600"
+		"xpos"			"0"
+		"ypos"			"r165"
+		"wide"			"f0"
 		"tall"			"600"
 	}
 	
