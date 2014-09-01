@@ -20,11 +20,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"38"
-		"ypos"			"35"
+		"xpos"			"51"
+		"ypos"			"40"
 		"zpos"			"4"
-		"wide"			"51"
-		"tall"			"51"
+		"wide"			"38"
+		"tall"			"38"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -33,11 +33,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"36"
-		"ypos"			"33"
+		"xpos"			"49"
+		"ypos"			"39"
 		"zpos"			"3"
-		"wide"			"55"
-		"tall"			"55"
+		"wide"			"41"
+		"tall"			"41"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
@@ -47,11 +47,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"36"
-		"ypos"			"33"
+		"xpos"			"49"
+		"ypos"			"39"
 		"zpos"			"2"
-		"wide"			"55"
-		"tall"			"55"
+		"wide"			"41"
+		"tall"			"41"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
@@ -71,7 +71,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"BikoBold60"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"230 230 230 255"
 	}
 	"PlayerStatusHealthValueShadow"
 	{
@@ -87,7 +87,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"BikoBold60"
-		"fgcolor"		"Black"
+		"fgcolor"		"0 0 0 100"
 	}	
 	"PlayerStatusBleedImage"
 	{
@@ -320,4 +320,17 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 	}
+	"PlayerStatus_Parachute"
+	{
+		"ControlName" "ImagePanel"
+		"fieldName" "PlayerStatus_Parachute"
+		"xpos" "85"
+		"ypos" "0"
+		"zpos" "7"
+		"wide" "31"
+		"tall" "31"
+		"visible" "0"
+		"enabled" "1"
+		"scaleImage" "1"
+		"image" ""
 }
