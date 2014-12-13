@@ -2399,6 +2399,16 @@ Scheme
 		//////////////////// HUD CUSTOM FONTS //////////////////////////////
 		//
 		
+		BikoRegular11
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"11"
+				"antialias" "1"
+			}
+		}
+		
 		BikoRegular12
 		{
 			"1"

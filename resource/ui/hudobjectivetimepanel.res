@@ -5,10 +5,10 @@
 "ControlName" "ScalableImagePanel"
 "fieldName" "TimePanelBG"
 "xpos" "16"
-"ypos" "0"
+"ypos" "15"
 "zpos" "2"
 "wide" "78"
-"tall" "15"
+"tall" "20"
 "visible" "1"
 "enabled" "1"
 "image" "../hud/objectives_timepanel_blue_bg"
@@ -18,20 +18,6 @@
 "draw_corner_width" "0"
 "draw_corner_height" "0"
 }
-	"TimePanelBG2"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"TimePanelBG2"
-		"xpos"			"16"
-		"ypos"			"15"
-		"zpos"			"2"
-		"wide"			"78"
-		"tall"			"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor" "0 0 0 255"
-		"scaleImage"		"1"	
-	}
 "TimePanelProgressBar"
 {
 "ControlName" "CTFProgressBar"
@@ -40,11 +26,8 @@
 "ypos" "16"
 "zpos" "4"
 "wide" "20"
-"wide_lodef" "25"
 "tall" "20"
-"tall_lodef" "25"
-"visible" "0"
-"visible_minmode" "0"
+"visible" "1"
 "enabled" "1"
 "scaleImage" "1"
 "image" "../hud/objectives_timepanel_progressbar"
@@ -86,11 +69,8 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
-		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
-		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
@@ -133,11 +113,8 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
-		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
-		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
@@ -180,11 +157,8 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
-		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
-		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
@@ -228,11 +202,8 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SetupBG"
-		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
-		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
@@ -247,19 +218,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
 		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
 		"ypos"			"10"
-		"ypos_minmode"	"24"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
 		"zpos"			"5"
 		"wide"			"78"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
 		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
