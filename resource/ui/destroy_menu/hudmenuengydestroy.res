@@ -44,7 +44,7 @@
 		"iconColor"		"255 255 255 255"
 	}
 	
-"TitleLabel"
+	"TitleLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
