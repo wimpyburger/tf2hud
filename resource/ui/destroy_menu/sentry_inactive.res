@@ -12,7 +12,7 @@
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry"
 		"labelText_lodef"		"#TF_Object_Sentry_360"
@@ -21,20 +21,20 @@
 		"brighttext"	"0"
 	}
 	
-	"ItemBackground"	
+	"ItemBackground"
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"ItemBackground"
 		"xpos"			"4"
-		"ypos"			"14"
+		"ypos"			"4"
 		"zpos"			"0"
-		"wide"			"98"
-		"tall"			"105"
+		"wide"			"34"
+		"tall"			"70"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg_outline"
-		"iconColor"		"ProgressOffWhiteTransparent"
+		"fillcolor"		"255 50 50 50"
 	}
 	
 	"NotBuiltLabel"

@@ -7,7 +7,7 @@
 		"font"			"Default"
 		"xpos"			"4"
 		"ypos"			"0"
-		"zpos"			"1"
+		"zpos"			"1" 
 		"wide"			"50"
 		"tall"			"15"
 		"autoResize"	"0"
